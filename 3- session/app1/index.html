@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Session 3</title>
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            ul, ol{
+                list-style: none;
+            }
+            .clear-fix{
+                clear: both;
+            }
+
+            h3{
+                font-size: 18px;
+                color: blue;
+            }
+
+            .btn{
+                display: block;
+                width: 100px;
+                background: red;
+                text-align: center;
+                padding: 5px;
+                text-decoration: none;
+                border-radius: 7px;
+                color: #fff;
+                margin: 10px 0;
+            }
+
+            #wrapper{
+                width: 1200px;
+                margin: auto;
+                font-family: Tahoma, Arial;
+            }
+            header{
+                height: 80px;
+                /*background: red;*/
+            }
+            header div.logo img{
+                height: 70%;
+                margin-top: 10px;
+            }
+            header div.logo{
+                width: 30%;
+                height: 70px;
+                /*background: green;*/
+                margin: 5px;
+                float: left;
+            }
+            header nav{
+                width: 60%;
+                /*background: #333;*/
+                float: right;
+                margin: 5px;
+                color: #000;
+            }
+            header nav ul{
+                float: right;
+                height: 70px;
+                line-height: 70px;
+            }
+            header nav ul li{
+                width: 60px;
+                float: left;
+                text-align: center;
+                border-right: #d63c3c solid 1px;
+            }
+            .last-li{
+                border-right:none;
+            }
+            #slider img{
+                width: 100%;
+            }
+            #slider{
+                /*background: #f00;*/
+                margin-bottom: 30px;
+            }
+            main{
+                min-height: 300px;
+                /*background: #f0f;*/
+                padding: 5px;
+            }
+
+            .welcome-mes{
+                width: 55%;
+                /*background: #0f0;*/
+                float: left;
+            }
+
+            .welcome-mes h1{
+                font-size: 30px;
+                color: lime;
+            }
+
+            .welcome-mes p{
+                color: #c5c5c5;
+            }
+
+            .events{
+                width: 40%;
+                /*background: #00f;*/
+                float: right;
+            }
+
+            .gallery{
+                width: 52%;
+                float: left;
+                /*background: #d63c3c;*/
+            }
+
+            .drawing{
+                width: 45%;
+                float: right;
+                /*background: #d63c30;*/
+            }
+
+            .g-img{
+                width: 48%;
+                height: 150px;
+                margin: .5%;
+                padding: .5%;
+                float: left;
+                background: #000000;
+                line-height: 150px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <section id="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/Logo.png" alt="">
+                    </a>
+                </div>
+                <!--/.logo-->
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li class="last-li">Item</li>
+                        <div class="clear-fix"></div>
+                    </ul>
+                    <div class="clear-fix"></div>
+                </nav>
+                <!--/nav-->
+            </header>
+
+            <section id="slider">
+                <img src="images/aaaaa.png" alt="">
+            </section>
+
+            <main>
+                <section class="welcome-mes">
+                    <h1>Welcome School</h1>
+                    <h3>Sub-header</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <a href="" class="btn">Read More</a>
+                    <div class="sub-main">
+                        <div class="gallery">
+                            <h2>Gallery</h2>
+                            <h3></h3>
+                            <div class="gallery-img">
+                                <div class="g-img">
+                                    <img src="images/Logo.png" alt="">
+                                </div>
+                                <div class="g-img">
+                                    <img src="images/Logo.png" alt="">
+                                </div>
+                                <div class="g-img">
+                                    <img src="images/Logo.png" alt="">
+                                </div>
+                                <div class="g-img">
+                                    <img src="images/Logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="drawing">
+                            <h2>Drawing</h2>
+                            <h3>sub header</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </section>
+                <!--/.welcome-mes-->
+
+                <section class="events">
+                    <div class="last-events">
+                        <h3>Events and Updated</h3>
+                        <div class="events-card">
+                            <h3>title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                        <div class="events-card">
+                            <h3>title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                        <div class="events-card">
+                            <h3>title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                    <!--.last-events-->
+
+                    <div class="event-month">
+                        <img src="" alt="">
+                        <a href="">Best of month</a>
+                    </div>
+                    <!--.event-month-->
+                </section>
+                <div class="clear-fix"></div>
+            </main>
+
+            <footer>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                    </ul>
+                </nav>
+                <!--/nav-->
+                <p class="copy-right">
+
+                </p>
+                <!--./copy-right-->
+            </footer>
+
+        </section>
+        <!--/#wrapper-->
+    </body>
+</html>
