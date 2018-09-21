@@ -1,0 +1,90 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+header{
+    /*background: #c3c3c3;*/
+}
+.logo{
+    width: 40%;
+}
+.search{
+    width: 40%;
+}
+.top-bar{
+    min-height: 100px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    border-bottom: 2px solid #679966;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+    text-align: center;
+    /*background: red;*/
+    margin: 0;
+    min-height: 30px;
+    line-height: 30px;
+    /*padding: 5px;*/
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav ul li:hover a{
+    color: #679966;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 3px;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.slider-description{
+    padding: 10px;
+    background: #679966;
+    font-size: 36px;
+    color: #FFF;
+}
+.services{
+    min-height: 300px;
+}
+.services .title{
+    font-size: 28px;
+    color: #000;
+    margin: 40px 0 20px;
+    text-transform: capitalize;
+}
+
+.services .title {
+    border-bottom: 3px solid #679966;
+}
+
+.services .title h3 {
+    width: 20%;
+    border-bottom: 5px solid #679966;
+    padding-bottom: 5px;
+}
+
+.offers{
+    background: red;
+}
+
+.offers .main-box {
+    background: #fff;
+}
+
+.last-news{
+    background: beige;
+}
+
+.last-news .main-box{
+    background: #fff;
+}
