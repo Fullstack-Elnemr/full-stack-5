@@ -1,0 +1,49 @@
+/*box*/
+.main-box{
+    width: 100%;
+    background: #000000;
+    min-height: 250px;
+    float: left;
+    margin: .5%;
+}
+
+/*box body*/
+.box-body{
+    margin-bottom: 10px;
+}
+.main-box .box-title{
+    width: 99%;
+    background: #f00;
+    min-height: 50px;
+    padding: .5%;
+}
+
+.main-box .box-body .box-img{
+    width: 20%;
+    height: 80px;
+    background: #c3c3c3;
+    float: left;
+}
+
+.main-box .box-body .box-desc{
+    width: 75%;
+    height: 80px;
+    background: #c3c3c3;
+    float: right;
+}
+
+
+
+/*size*/
+.box3{
+    width: 32.3%;
+}
+
+.box2{
+    width: 49%;
+}
+
+.box4{
+    width: 24%;
+}
+

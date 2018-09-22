@@ -1,0 +1,137 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+header{
+    background: rgba(255,0,0,0.2);
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:0;
+    z-index: 999;
+}
+.cover{
+    background: url("../images/afet.png");
+    background-size: cover;
+    position: fixed;
+    height: 154px;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    opacity: .2;
+}
+.logo{
+    width: 40%;
+}
+.search{
+    width: 40%;
+}
+.top-bar{
+    min-height: 100px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    border-bottom: 2px solid #679966;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+    text-align: center;
+    /*background: red;*/
+    margin: 0;
+    min-height: 30px;
+    line-height: 30px;
+    /*padding: 5px;*/
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav ul li:hover a{
+    color: #679966;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 3px;
+}
+.slider{
+    /*margin-top: 154px;*/
+}
+
+.slider img{
+    width: 100%;
+
+}
+
+.slider-description{
+    padding: 10px;
+    background: #679966;
+    font-size: 36px;
+    color: #FFF;
+    position: relative;
+}
+.services{
+    min-height: 300px;
+}
+.services .title{
+    font-size: 28px;
+    color: #000;
+    margin: 40px 0 20px;
+    text-transform: capitalize;
+}
+
+.services .title {
+    border-bottom: 3px solid #679966;
+}
+
+.services .title h3 {
+    width: 20%;
+    border-bottom: 5px solid #679966;
+    padding-bottom: 5px;
+}
+
+.offers{
+    background: red;
+}
+
+.offers .main-box {
+    background: #fff;
+}
+
+.last-news{
+    background: beige;
+}
+
+.last-news .main-box{
+    background: #fff;
+}
+
+/*.color{*/
+    /*background: #ff0000;*/
+    /*width: 100px;*/
+    /*height: 200px;*/
+    /*position: fixed;*/
+    /*z-index: 15;*/
+    /*!*margin: 50px;*!*/
+    /*!*float: right;*!*/
+    /*right: 50px;*/
+    /*top: 50px;*/
+/*}*/
+
+/*.color2{*/
+    /*background: #0f0;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*position: fixed;*/
+    /*z-index: 999999;*/
+    /*right: 0;*/
+    /*left: 0;*/
+    /*top: 47%;*/
+    /*margin: auto;*/
+/*}*/
+
