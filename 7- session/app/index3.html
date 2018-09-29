@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div.relative{
+            width: 400px;
+            height: 900px;
+            border: 3px solid #73AD21;
+            position: relative;
+            margin: auto;
+        }
+        div.absolute {
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            border: 3px solid #73AD21;
+            /*right: 0;*/
+            /*left: 0;*/
+            /*margin: auto;*/
+            /*top: 40%;*/
+        }
+        .red{
+            background: red;
+            /*opacity: .2;*/
+            z-index: 6666;
+            left: 0;
+
+        }
+        .green{
+            background: green;
+            width: 50%;
+            z-index: 22;
+
+        }
+        /*.box{*/
+            /*position: fixed;*/
+            /*width: 150px;*/
+            /*height: 150px;*/
+            /*background: green;*/
+            /*z-index: 66;*/
+            /*!*top: 0;*!*/
+            /*right: 0;*/
+            /*left: 0;*/
+            /*margin: auto;*/
+            /*bottom: 0;*/
+        /*}*/
+    </style>
+</head>
+<body>
+
+<div class="absolute red">
+    <div class="absolute green"></div>
+</div>
+
+    <div class="relative">
+        This div element has position: relative;This div element has position: relative;This div element has position: relative;This div element has position: relative;
+        <div class="relative" style=" width: 50%">
+            This div element has position: relative;
+        </div>
+
+        <div class="absolute">This div element has position: absolute;</div>
+    </div>
+
+    <div class="relative" style="z-index: 300;">This div element has position: relative;
+
+    </div>
+
+    <div style="background: rgba(255,0,0,.2);">
+        <div>Hello</div>
+    </div>
+
+<!--<div class="box"></div>-->
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" media="screen and (min-width: 300px)" href="print.css">
+
+        <style>
+            .wrapper{
+                width: 1200px;
+                margin: auto;
+                min-height: 600px;
+                background: #c3c3c3;
+                font-size: 0;
+            }
+
+            .box{
+                display: inline-block;
+                font-size: 28px;
+                width: 25%;
+            }
+
+            @media screen and (min-width: 300px) {
+                .wrapper{
+                    width: 285px;
+                    background: green;
+                }
+
+                .box{
+                    width: 100%;
+                }
+            }
+
+
+            @media screen and (min-width: 700px) {
+                .wrapper{
+                    width: 650px;
+                    background: green;
+                }
+
+                .box{
+                    width: 50%;
+                }
+            }
+
+            @media screen and (min-width: 1300px) {
+                .wrapper{
+                    width: 1000px;
+                    background: red;
+                }
+
+                .box{
+                    width: 25%;
+                }
+            }
+
+            @media screen and (min-width: 1400px) {
+                .wrapper{
+                    width: 1000px;
+                    background: #f1f1f1;
+                }
+
+                .box{
+                    width: 20%;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="box">
+                Box
+            </div>
+
+            <div class="box">
+                Box
+            </div>
+
+            <div class="box">
+                Box
+            </div>
+
+            <div class="box">
+                Box
+            </div>
+
+            <div class="box">
+                Box
+            </div>
+        </div>
+    </body>
+</html>
