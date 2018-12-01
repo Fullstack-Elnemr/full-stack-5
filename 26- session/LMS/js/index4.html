@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <script src="jquery-3.3.1.min.js"></script>
+
+
+</head>
+<body>
+
+n1 : <input type="number" id="n1">
+n2 : <input type="number" id="n2">
+<button id="getResult">Get Result</button>
+
+
+<script>
+    $(function () { // document ready
+        $('#getResult').click(function () {
+            var n1 = $('#n1').val(),
+                n2 = $('#n2').val();
+            var result = parseInt(n1) + parseInt(n2);//"5" + "5"
+
+            alert(result);
+        }); // in php ->
+    });
+</script>
+</body>
+</html>
