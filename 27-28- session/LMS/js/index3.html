@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style>
+        .red{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="red()">Red</button>
+
+<script src="jquery-3.3.1.min.js"></script>
+
+<script>
+    function red() {
+        $('body').addClass('red').fadeOut(9*100);
+    }
+</script>
+
+</body>
+</html>

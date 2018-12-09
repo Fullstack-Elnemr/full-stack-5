@@ -1,0 +1,7 @@
+1 - install Composer 
+2 - Alternatively, you may also install Laravel by the 
+	Composer create-project command in your terminal:
+	a - open cmd and go to project path
+	b - cmd => composer create-project --prefer-dist laravel/laravel app1 
+	c - cmd => cd app1
+	d - cmd => php artisan serve
